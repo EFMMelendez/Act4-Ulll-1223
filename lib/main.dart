@@ -17,7 +17,7 @@ class MiAplicacion extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Dulcería Alegrías',
+      title: 'Zapateria Melendez',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -134,8 +134,8 @@ class PaginaSesion extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text('Dulcería Alegrías'),
-        backgroundColor: const Color(0xffb80303),
+        title: const Text('Zapateria Melendez'),
+        backgroundColor: const Color(0xffdec848),
         elevation: 8,
       ),
       body: Padding(
@@ -172,7 +172,7 @@ class PaginaSesion extends StatelessWidget {
               ),
               style: ElevatedButton.styleFrom(
                 minimumSize: const Size(340, 40),
-                backgroundColor: const Color(0xff000000),
+                backgroundColor: const Color(0xffdec848),
               ),
               onPressed: () => _login(context),
             ),
@@ -184,7 +184,7 @@ class PaginaSesion extends StatelessWidget {
               ),
               style: ElevatedButton.styleFrom(
                 minimumSize: const Size(340, 40),
-                backgroundColor: const Color(0xff000000),
+                backgroundColor: const Color(0xffdec848),
               ),
               onPressed: () => _registro(context),
             ),
